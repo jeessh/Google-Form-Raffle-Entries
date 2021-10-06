@@ -1,3 +1,4 @@
+//ensure trigger activates onFormSubmit function
 function onFormSubmit() {
 
   record_array = []
@@ -20,7 +21,6 @@ function onFormSubmit() {
   record_array.push(respondentName);
 
 var formItems = form.getItems();
-var formCount = formItems.length;
 
 //parses through actual questions to calculate # of entries
   var scoreCounter = 0;
@@ -45,7 +45,7 @@ var formCount = formItems.length;
       record_array.push(answer);
 //adds all the data to the raffle function which will then send to SS
       AddRaffleEntry(record_array[0], record_array[1], raffleQuestion, scoreCounter, 'Friday');
-
+//change 
     } else{
       Logger.log('no/wrong answer');
 
