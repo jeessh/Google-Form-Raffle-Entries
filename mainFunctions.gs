@@ -1,6 +1,7 @@
 //ensure trigger activates onFormSubmit function
 function onFormSubmit() {
 
+//temporary array for each respondent (later pushed to the spreadsheet)
   record_array = []
 
 //initiate general variables & form link
