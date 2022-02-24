@@ -13,5 +13,5 @@ To use this script:
   5. Add a trigger so functions are run on form submission
 
 Made for Milliken Mills High School SAC
-- Jess H.
+- Jesse H.
 
